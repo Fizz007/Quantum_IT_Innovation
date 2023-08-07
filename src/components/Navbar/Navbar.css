@@ -1,0 +1,155 @@
+/* Navbar */
+
+.navbar {
+    width: 100%;
+    background-color: whitesmoke;
+    border-bottom: 1px solid;
+}
+
+
+.headerr {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 40px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+}
+
+.nav-options {
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 100%;
+}
+
+.mobile-option {
+    display: none;
+}
+
+.option {
+    width: 25%;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.option-three {
+    display: flex;
+}
+
+.option-three ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.option-three ul li {
+    padding: 20px 28px;
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 769px) {
+    .logowidth {
+        width: 140px;
+    }
+
+    .headerr {
+        padding: 0px 10px;
+    }
+
+    .logo {
+        width: 45px;
+        height: 45px;
+    }
+
+    .nav-options {
+        display: flex;
+        width: 100%;
+        height: 380px;
+        position: absolute;
+        top: 90px;
+        left: -100%;
+        opacity: 0;
+        transition: all 0.5s ease;
+        flex-direction: column;
+        list-style-type: none;
+        grid-gap: 0px;
+        border-top: 2px solid gray;
+    }
+
+    .nav-options.active {
+        background: #ffffff;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+        align-content: center;
+        padding-left: 0px;
+        background-color: antiquewhite;
+    }
+
+    .menu-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .option {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vw;
+        padding: 15px 0px;
+    }
+
+    .mobile-menu {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        font-size: 34px;
+    }
+
+    .option {
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        margin-left: 12px;
+    }
+
+    .option-three {
+        width: 100%;
+    }
+
+    .option-three ul {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+        width: 100%;
+    }
+
+}

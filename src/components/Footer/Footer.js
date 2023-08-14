@@ -6,7 +6,7 @@ const Footer = () => {
         <div className='footer'>
             <div className="footertext">
                 <h1>Subscribe Our Newsletter For More Update</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae ab omnis quibusdam. Aliquid odit consequatur at ratione ut nemo, sequi velit quas tempora autem tempore placeat asperiores voluptate recusandae modi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, suscipit maxime! Necessitatibus vitae illo quaerat aliquam culpa ratione commodi tempora sequi et error, fugiat voluptatum!</p>
             </div>
             <div className="footersearch">
                 <input type="text" className='input' placeholder='Enter Your Mail' />

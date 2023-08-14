@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className='navbar'>
             <div className="headerr" >
                 <div className="logo-container">
-                    <img width={100} src="https://www.pngkit.com/png/detail/398-3989650_professional-logo-design-services-business-logo-design-png.png" alt="" />
+                    <img width={90} height={50} src="https://cdn.pixabay.com/photo/2016/12/27/13/10/logo-1933884_640.png" alt="" />
                 </div>
                 <div className="logo-nav">
                     <div className={click ? "nav-options active" : "nav-options"}>

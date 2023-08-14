@@ -1,12 +1,13 @@
 .footer {
     width: 100%;
     height: 200px;
-    background-image: url("https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-image: url("https://wisynco.com/wp-content/uploads/2014/12/footer-background-01-noise.png");
     background-position: center top;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: hidden;
 }
 
 .footertext {
@@ -20,10 +21,18 @@
     flex-direction: column;
 }
 
+.btn{
+    padding: 12px 6px;
+    font-size: 14px;
+    width: 100px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
 .input {
     width: 70%;
     padding: 12px;
-    background: transparent;
+    background: #fff;
     color: white;
     font-size: 18px;
     margin: 10px;
